@@ -1,0 +1,77 @@
+body{
+    height: 98vh;
+    background-image: url("imagens/vienna-reyes-Zs_o1IjVPt4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+
+
+}
+h1{
+    margin-left: 25px;
+}
+main{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.603), rgba(238, 235, 235, 0.596));
+    border: 2px black;
+    border-radius: 12px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.904);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    margin-right: 25px;
+}
+#formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+}
+#login{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.911);
+    margin-bottom: 12px;
+}
+#Diarista{
+    margin-bottom: 10px;
+}
+#nome{
+    background-color: transparent;
+    border: 1px black;
+
+}
+#nome:focus{outline: none;
+}
+#topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 15px 0px 20px;
+}
+#bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#bot button{
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+#bot button:hover{
+    width: 152px;
+    height: 20px;
+    background-color: rgba(51, 51, 51, 0.555);
+    border: 1px solid black;
+    color: aliceblue;
+}
